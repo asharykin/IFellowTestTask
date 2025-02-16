@@ -34,7 +34,7 @@ public class FirstSteps {
     public int sum(int[] array) {
         int arraySum = 0;
         for (int i = 0; i < array.length; i++) {
-            arraySum = arraySum + array[i];
+            arraySum += array[i];
         }
         return arraySum;
     }
@@ -45,7 +45,7 @@ public class FirstSteps {
         }
         int arrayProduct = 1;
         for (int i = 0; i < array.length; i++) {
-            arrayProduct = arrayProduct * array[i];
+            arrayProduct *= array[i];
         }
         return arrayProduct;
     }
